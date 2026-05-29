@@ -1,0 +1,51 @@
+# ── Virtual Environment (your env name) ──────────────────────
+capstone/
+
+# ── Python cache ─────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+
+# ── Jupyter Notebook checkpoints ─────────────────────────────
+.ipynb_checkpoints/
+
+# ── Environment Variables ────────────────────────────────────
+.env
+.env.local
+
+# ── Streamlit secrets ────────────────────────────────────────
+.streamlit/secrets.toml
+
+# ── OS junk ──────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── IDE ──────────────────────────────────────────────────────
+.vscode/
+.idea/
+
+# ── Logs ─────────────────────────────────────────────────────
+*.log
+logs/
+
+# ─────────────────────────────────────────────────────────────
+# ✅ FILES THAT WILL BE COMMITTED TO GITHUB:
+# ─────────────────────────────────────────────────────────────
+# app.py
+# config.py
+# requirements.txt
+# README.md
+# forecasting.db
+# data/training_data.csv
+# models/tbats_model.pkl
+# notebook/data_preprocessing.ipynb
+# src/__init__.py
+# src/database.py
+# src/forecast.py
+# pages/1_Dashboard.py
+# pages/2_Forecast.py
+# pages/3_Daily_Update.py
+# pages/4_Retrain.py
+# pages/5_Delete_Record.py
+# processed/tbats_train_data.csv
