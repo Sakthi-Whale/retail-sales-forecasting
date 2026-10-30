@@ -1,0 +1,3 @@
+# this file is used to specify the python runtime version as streamlit cloud uses python 3.11 by default, but you can specify a different version if needed
+
+python-3.11
